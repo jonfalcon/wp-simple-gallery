@@ -1,0 +1,39 @@
+.wpsg-gallery {
+	margin: 10px 0;
+}
+
+.wpsg-gallery ul {
+	*zoom: 1;
+}
+
+.wpsg-gallery ul:before, .wpsg-gallery ul:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+
+.wpsg-gallery ul:after {
+	clear: both;
+}
+
+.wpsg-gallery ul li {
+	list-style: none;
+	display: inline;
+	float: left;
+	padding: 10px;
+}
+
+.wpsg-gallery ul li img {
+	background-color: #fff;
+	padding: 4px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-clip: padding-box;
+	-webkit-box-shadow: 0 0 6px 0 #ccc;
+	box-shadow: 0 0 6px 0 #ccc;
+}
+
+.slider-with-thumbnails {
+	margin-bottom: 15px;
+}
